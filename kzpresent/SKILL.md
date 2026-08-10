@@ -1,6 +1,6 @@
 ---
 name: kzpresent
-description: Create branded «Кузбасс-ЦОТ» one-page technical presentations in a green corporate style and portrait A4 format from source text, measurements, tables, formulas, diagrams, and images. Use when Codex is asked for a KZCOT or Kuzbass-COT одностраничная презентация, технический лист, A4 infographic, engineering test summary, experiment comparison, method/result poster, or project proposal. Produce an editable one-slide PPTX and a visually verified PNG; produce PDF when requested.
+description: Create branded «Кузбасс-ЦОТ» one-page technical presentations in a green corporate style as visually verified portrait A4 PNG images from source text, measurements, tables, formulas, diagrams, and images. Use when Codex is asked for a KZCOT or Kuzbass-COT одностраничная презентация, технический лист, A4 infographic, engineering test summary, experiment comparison, method/result poster, project proposal, or another corporate PNG page.
 ---
 
 # KZPresent
@@ -13,9 +13,9 @@ Create one portrait A4 page in the «Кузбасс-ЦОТ» corporate style. Ex
 2. Inspect all user inputs. Distinguish measured facts, calculations, assumptions, forecasts, and recommendations. Never invent a metric or silently upgrade a forecast into a result.
 3. Select one page pattern from `content-patterns.md`. Write the conclusion first, then retain only the evidence needed to support it.
 4. Use `assets/logo.jpg` unchanged as the corporate logo. Use `assets/references/*.png` only for structural composition; ignore their blue palette and SnowGood branding.
-5. Apply the local `Presentations` skill and its PowerPoint workflow. Build an editable one-slide PPTX with an A4 portrait canvas (210 × 297 mm; aspect ratio 1:1.4142).
-6. Run presentation overflow diagnostics, then render the slide to PNG and inspect it at full size. Check every text box, table cell, caption, callout, and page edge for clipped text, text extending beyond its frame, or content leaving the slide canvas.
-7. If overflow, clipping, collision, unsafe edge placement, or suspicious wrapping appears, shorten the copy or enlarge/rearrange the container while preserving the 12 pt minimum. Render and inspect again. Do not deliver until automated diagnostics and visual inspection both pass.
+5. Use a precise layout workflow that supports deterministic text bounds and high-resolution raster export. Build directly for a portrait A4 canvas (aspect ratio 1:1.4142) and export the final page as PNG. Do not use a generative image model to render the page's text.
+6. Run available layout or bounds diagnostics, then inspect the exported PNG at full size. Check every text box, table cell, caption, callout, and page edge for clipped text, text extending beyond its frame, or content leaving the canvas.
+7. If any overflow, clipping, collision, unsafe edge placement, or suspicious wrapping appears, shorten the copy or enlarge/rearrange the container while preserving the 12 pt minimum. Export and inspect again. Do not deliver until both automated diagnostics and visual inspection pass.
 
 ## Content rules
 
@@ -30,8 +30,7 @@ Create one portrait A4 page in the «Кузбасс-ЦОТ» corporate style. Ex
 
 ## Deliverables
 
-- Always return the editable `.pptx` and the rendered `.png`.
+- Return only the final `.png` as the user-facing document.
 - Deliver files only after the final render passes the mandatory visual overflow check.
-- Return `.pdf` when the user requests print distribution.
 - Preserve source files and save new outputs separately.
 - Mention missing evidence or unresolved assumptions in the handoff.

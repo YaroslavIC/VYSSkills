@@ -26,8 +26,8 @@
 
 ## Mandatory overflow verification
 
-1. Run the overflow or bounds checker provided by the active presentation workflow.
-2. Render the final slide to PNG after all edits.
+1. Run the overflow or bounds checker provided by the active layout workflow.
+2. Export the final page to PNG after all edits.
 3. Open the rendered PNG at full size and inspect every text container, including titles, table cells, captions, formulas, footnotes, and conclusion panels.
 4. Confirm that no glyph is clipped, no text crosses a border, no line escapes its box, and no content extends beyond the A4 canvas or sits flush against an edge without intentional padding.
 5. Treat unexpected wrapping, a hidden last line, text touching a frame, and unusually tight bottom padding as overflow failures even when an automated checker reports no error.
@@ -36,7 +36,6 @@
 
 ## Output
 
-- PPTX remains editable.
-- PNG render matches the PPTX and has no missing fonts, logo, or assets.
+- Final PNG has no missing fonts, logo, or assets and preserves the intended A4 portrait ratio.
 - Automated bounds diagnostics and full-size visual inspection both pass on the final version.
 - Source files were not overwritten.
