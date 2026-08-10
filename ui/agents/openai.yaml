@@ -1,0 +1,4 @@
+interface:
+  display_name: "UI"
+  short_description: "Design dense engineering and scientific interfaces"
+  default_prompt: "Use $ui to design or review a compact engineering interface for this application."
