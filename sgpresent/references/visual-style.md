@@ -13,7 +13,7 @@ Treat the samples as the final authority when a written rule and the visual evid
 ## Canvas and grid
 
 - Use portrait A4: 210 × 297 mm.
-- Keep a full-width dark navy header occupying roughly 13–17% of page height.
+- Keep a full-width dark navy header occupying roughly 9–12% of page height. This is 70% of the height used in the original references; preserve the reference color while making the header visibly more compact.
 - Place the logo at the upper left. Align the title and subtitle in a column to its right.
 - Use consistent outer margins, approximately 5–7% of page width.
 - Organize the body into two to four horizontal bands. Align edges across bands.
@@ -43,6 +43,7 @@ Use orange only for a losing option, warning, or failed threshold. Do not introd
 - Use bold or semibold for titles, section headings, metrics, table headers, and conclusions.
 - Use white for the main title, pale cyan for the header subtitle, and cyan for body section headings.
 - Keep the main title to one or two lines. Never shrink it into body-text scale.
+- Keep every visible text element at 12 pt or larger. Prefer 14 pt or larger for body copy, captions, notes, and table cells; use 12 pt only when the content cannot be shortened further without losing necessary meaning.
 - Align numeric comparisons and retain nonbreaking spaces between values and units when practical.
 
 ## Components

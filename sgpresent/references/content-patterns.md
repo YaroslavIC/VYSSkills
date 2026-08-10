@@ -41,4 +41,4 @@ Choose the smallest pattern that supports the intended conclusion.
 - Final conclusion: preferably 25–45 words.
 - Footnote or caveat: one or two compact lines.
 
-If content exceeds the page, shorten prose, remove secondary evidence, or ask for a second page. Do not solve overflow by making everything smaller.
+If content exceeds the page, shorten prose, remove secondary evidence, or ask for a second page. Do not solve overflow by reducing text below 12 pt; prefer 14 pt or larger throughout.
