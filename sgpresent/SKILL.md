@@ -15,7 +15,7 @@ Create one portrait A4 page that explains one technical subject and ends with a 
 4. Use `assets/logo.png` unchanged. Use `assets/references/*.png` as visual references only; do not copy their subject-specific text into a new presentation.
 5. Apply the local `Presentations` skill and its PowerPoint workflow. Build an editable one-slide PPTX with an A4 portrait canvas (210 × 297 mm; aspect ratio 1:1.4142).
 6. Run the presentation overflow diagnostics, then render the slide to PNG and inspect it at full size. Check every text box, table cell, caption, callout, and page edge for clipped text, text extending beyond its frame, or content leaving the slide canvas.
-7. If any overflow, clipping, collision, unsafe edge placement, or suspicious wrapping appears, shorten the copy or enlarge/rearrange the container while preserving the 12 pt minimum. Render and inspect again. Do not deliver until both automated diagnostics and visual inspection pass. Export PDF only when requested.
+7. If any overflow, clipping, collision, unsafe edge placement, suspicious wrapping, or weak visual hierarchy appears, shorten the copy or enlarge/rearrange the container while preserving the role-based type minimums in `visual-style.md`. Render and inspect again. Do not deliver until both automated diagnostics and visual inspection pass. Export PDF only when requested.
 
 ## Content rules
 

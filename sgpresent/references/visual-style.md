@@ -43,7 +43,18 @@ Use orange only for a losing option, warning, or failed threshold. Do not introd
 - Use bold or semibold for titles, section headings, metrics, table headers, and conclusions.
 - Use white for the main title, pale cyan for the header subtitle, and cyan for body section headings.
 - Keep the main title to one or two lines. Never shrink it into body-text scale.
-- Keep every visible text element at 12 pt or larger. Prefer 14 pt or larger for body copy, captions, notes, and table cells; use 12 pt only when the content cannot be shortened further without losing necessary meaning.
+- Treat 12 pt as an emergency lower bound for secondary text, not as a universal target. Use these role-based minimums:
+
+| Text role | Minimum | `artifact-tool` equivalent |
+|---|---:|---:|
+| Footnote or secondary caption | 12 pt | 16 px |
+| Body copy, table cell, image caption | 14 pt | 19 px |
+| Card or diagram-node heading | 16 pt | 22 px |
+| Step number or navigation marker | 20 pt | 27 px |
+| Key metric | 24 pt | 32 px |
+
+- In `artifact-tool`, `fontSize` uses CSS pixels, not PowerPoint points. Convert with `px = pt × 96 / 72`; for example, 12 pt = 16 px and 14 pt ≈ 19 px.
+- Make semantic hierarchy visible, not merely compliant with the absolute minimum. Step numbers, navigation markers, and key metrics must be recognizable at whole-page A4 view and clearly larger or more prominent than nearby body text.
 - Align numeric comparisons and retain nonbreaking spaces between values and units when practical.
 
 ## Components
