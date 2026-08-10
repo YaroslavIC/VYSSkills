@@ -33,7 +33,7 @@ Choose the smallest pattern that supports the intended conclusion.
 ## Copy budget
 
 - Title: up to 12–16 words.
-- Header subtitle: one line.
+- Header subtitle: one line; include the date in the header in `ДД.ММ.ГГГГ` format.
 - Goal: one or two sentences.
 - Section heading: two to five words.
 - Diagram node: up to three short lines.

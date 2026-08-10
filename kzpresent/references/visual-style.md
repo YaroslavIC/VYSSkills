@@ -11,6 +11,7 @@
 - Use portrait A4: 210 × 297 mm.
 - Keep a full-width dark-green header occupying roughly 9–12% of page height.
 - Place the full corporate logo at the upper left on a white inset or white clear-space area. Align the title and subtitle to its right.
+- Place the date inside the header, preferably right-aligned or at the end of the subtitle line. Keep it clearly visible, on one line, and separated from the title.
 - Use consistent outer margins, approximately 5–7% of page width.
 - Organize the body into two to four horizontal bands and align edges across bands.
 - Fill the page while preserving visible gaps between sections. Avoid tiny orphaned elements.

@@ -20,6 +20,7 @@ Create one portrait A4 page in the «Кузбасс-ЦОТ» corporate style. Ex
 ## Content rules
 
 - Write visible copy in Russian unless the user requests another language.
+- Show a date in the header in `ДД.ММ.ГГГГ` format. Prefer the user-supplied event, test, measurement, or reporting date; otherwise use the document creation date. Never present the creation date as the date of an experiment.
 - Make the title state the subject; make the final callout state the decision or engineering consequence.
 - Prefer concrete numbers, units, conditions, and comparisons over generic claims.
 - Mark estimates explicitly: `оценка`, `прогноз`, `ожидаемая точность`, or `рабочая гипотеза`.

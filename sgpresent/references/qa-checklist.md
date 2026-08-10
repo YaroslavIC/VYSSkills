@@ -17,6 +17,7 @@
 
 - Canvas is portrait A4; the compact dark-blue header occupies about 9–12% of page height, while the logo, palette, and components match the references.
 - Title is no more than two lines and does not collide with the logo.
+- Header contains a clearly visible, single-line date in `ДД.ММ.ГГГГ` format; it does not collide with the title, subtitle, or logo.
 - Section and column edges align to a consistent grid.
 - No text is clipped or wrapped unexpectedly. All visible text is at least 12 pt and preferably 14 pt or larger.
 - No unintended overlaps exist. Connectors do not cross labels or nodes.

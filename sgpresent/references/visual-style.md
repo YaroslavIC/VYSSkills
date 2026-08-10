@@ -15,6 +15,7 @@ Treat the samples as the final authority when a written rule and the visual evid
 - Use portrait A4: 210 × 297 mm.
 - Keep a full-width dark navy header occupying roughly 9–12% of page height. This is 70% of the height used in the original references; preserve the reference color while making the header visibly more compact.
 - Place the logo at the upper left. Align the title and subtitle in a column to its right.
+- Place the date inside the header, preferably right-aligned or at the end of the subtitle line. Keep it clearly visible, on one line, and separated from the title.
 - Use consistent outer margins, approximately 5–7% of page width.
 - Organize the body into two to four horizontal bands. Align edges across bands.
 - Fill the page, but preserve visible gaps between sections. Avoid tiny orphaned elements.
