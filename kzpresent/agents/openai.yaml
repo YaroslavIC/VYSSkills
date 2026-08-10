@@ -1,0 +1,7 @@
+interface:
+  display_name: "KZPresent"
+  short_description: "Одностраничные презентации Кузбасс-ЦОТ"
+  icon_small: "./assets/icon.png"
+  icon_large: "./assets/logo.jpg"
+  brand_color: "#009846"
+  default_prompt: "Use $kzpresent to create a green-branded Kuzbass-COT one-page technical presentation."
