@@ -1,0 +1,4 @@
+interface:
+  display_name: "KZCOT DOCX"
+  short_description: "Corporate formatting for Word documents"
+  default_prompt: "Use $kzcot-docx to format this document to the KZCOT standard."
